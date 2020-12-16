@@ -40,5 +40,5 @@ describe('Car class', () => {
   })
   it('new cars have odometer 0', () => {
     expect(prius.odometer).toBe(0)
-})
+  })
 })
