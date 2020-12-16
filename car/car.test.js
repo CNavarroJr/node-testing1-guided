@@ -18,4 +18,7 @@ describe('Car class', () => {
     const prius = new Car('toyota', 'prius') // set up or action
     expect(prius).toBeInstanceOf(Car)
   })
+  it('cars have a make property', () => {
+    const prius = new Car('toyota', 'prius')
+  })
 })
