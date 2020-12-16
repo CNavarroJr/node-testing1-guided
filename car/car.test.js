@@ -6,6 +6,6 @@ describe('Car class', () => {
     expect(2 + 2).toBe(4)
   })
   test('everything working', () => { // THIS is another test
-    expect({}).toEqual({})
+    expect({}).
   })
 })
