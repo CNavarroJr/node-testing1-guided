@@ -46,7 +46,7 @@ describe('Car class', () => {
     expect(prius.drive).toBeTruthy()
     expect(prius.drive).toBeInstanceOf(Function)
   })
-  it('returns the driven distance', () => {
-    
+  it('drive returns the driven distance', () => {
+    expect(prius.drive(5)).toReturn(5);
   })
 })
