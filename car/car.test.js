@@ -14,4 +14,7 @@ describe('Car class', () => {
   it('is defined', () => {
     expect(Car).toBeDefined()
   })
+  it('can be used to make instances of Cars', () => {
+    
+  })
 })
