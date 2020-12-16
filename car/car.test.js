@@ -6,6 +6,6 @@ describe('Car class', () => {
     expect(2 + 2).toBe(5)
   })
   test('everything working', () => { // THIS is another test
-
+    expect({}).toBe({})
   })
 })
