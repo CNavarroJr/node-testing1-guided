@@ -11,9 +11,9 @@ describe('Sanity and intro', () => {
   })
 })
 describe('Car class', () => {
-  let prius
   beforeEach(() => {
     // anything you want happening before each test
+    let prius
     prius = new Car('toyota', 'prius')
   })
   it('is defined', () => {
