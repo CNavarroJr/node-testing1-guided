@@ -12,6 +12,6 @@ describe('Sanity and intro', () => {
 })
 describe('Car class', () => {
   it('is defined', () => {
-    
+    expect(Car).toBeDefined()
   })
 })
