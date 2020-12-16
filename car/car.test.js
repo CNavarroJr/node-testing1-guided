@@ -16,6 +16,6 @@ describe('Car class', () => {
   })
   it('can be used to make instances of Cars', () => {
     const prius = new Car('toyota', 'prius') // set up or action
-    expect(prius).
+    expect(prius).tobein
   })
 })
