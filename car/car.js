@@ -9,7 +9,11 @@ class Car {
     return distance
   }
   driveAsync(distance) {
-    
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        
+      })
+    })
   }
 }
 
