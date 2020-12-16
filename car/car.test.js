@@ -29,4 +29,7 @@ describe('Car class', () => {
   it("cars have a model property", () => {
     expect(prius.model).toBe("prius");
   })
+  it('cars have make and model', () => {
+    expect(prius).to
+  })
 })
