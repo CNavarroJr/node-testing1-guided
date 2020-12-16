@@ -38,4 +38,7 @@ describe('Car class', () => {
       { make: 'toyota', model: 'prius' }
     )
   })
+  it('odometor is equal to 0', () => {
+    expect(prius.odometer).toBe(0);
+})
 })
