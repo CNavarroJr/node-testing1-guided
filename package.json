@@ -4,7 +4,7 @@
   "description": "Web Testing I Guided Project",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "ketchup": "git fetch && git reset --hard origin/lecture"
   },
   "repository": {
