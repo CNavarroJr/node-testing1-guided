@@ -1,5 +1,6 @@
 const Car = require('./car')
-// we can fast timers forward!!!!!
+// we can fast timers forward!
+// we can mock libraries
 describe('Sanity and intro', () => {
   it('works', () => { // THIS is the test
     // assertions
