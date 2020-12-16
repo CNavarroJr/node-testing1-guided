@@ -13,7 +13,7 @@ class Car {
       setTimeout(() => {
         this.odometer += distance
         resolve(distance)
-      }, 1000)
+      }, 10)
     })
   }
 }
