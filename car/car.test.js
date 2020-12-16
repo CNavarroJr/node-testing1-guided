@@ -56,5 +56,9 @@ describe('Car class', () => {
     // expect(prius.drive(5)).toBe(5);
     prius.drive(5)
     expect(prius.odometer).toBe(5)
+    prius.drive(6)
+    expect(prius.odometer).toBe(11)
+    prius.drive(9)
+    expect(prius.odometer).toBe(20)
   })
 })
