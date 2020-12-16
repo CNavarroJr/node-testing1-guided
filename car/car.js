@@ -8,6 +8,9 @@ class Car {
     this.odometer += distance
     return distance
   }
+  driveAsync(distance) {
+    
+  }
 }
 
 
