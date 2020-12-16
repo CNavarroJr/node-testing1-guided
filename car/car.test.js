@@ -66,4 +66,7 @@ describe('Car class', () => {
     await prius.driveAsync(5)
     expect(prius.odometer).toBe(5)
   })
+  it('drive resolves to the driven distance', () => {
+    
+  })
 })
