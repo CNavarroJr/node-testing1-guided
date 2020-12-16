@@ -49,6 +49,7 @@ describe('Car class', () => {
   it('drive returns the driven distance', () => {
     expect(prius.drive(5)).toBe(5)
     expect(prius.drive(0)).toBe(0)
-    expect(prius.drive(10)).toBe(5)
+    expect(prius.drive(10)).toBe(10)
   })
+  it('')
 })
