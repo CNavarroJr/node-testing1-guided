@@ -7,5 +7,6 @@ describe('Car class', () => {
   })
   test('everything working', () => { // THIS is another test
     expect({}).not.toBe({})
+    expect({}).toEqual({})
   })
 })
