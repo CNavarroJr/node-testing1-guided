@@ -1,6 +1,6 @@
 const Car = require('./car')
 
-describe('Car class', () => {
+describe('Sanity and intro', () => {
   it('works', () => { // THIS is the test
     // assertions
     expect(2 + 2).toBe(4)
@@ -8,5 +8,10 @@ describe('Car class', () => {
   test('everything working', () => { // THIS is another test
     expect({}).not.toBe({})
     expect({}).toEqual({})
+  })
+})
+describe('Car class', () => {
+  it('is defined', () => {
+    
   })
 })
