@@ -30,6 +30,8 @@ describe('Car class', () => {
     expect(prius.model).toBe("prius");
   })
   it('cars have make and model', () => {
-    expect(prius).toEqual({ make: 'toyota', model: 'prius'})
+    expect(prius).toEqual(
+      { make: 'toyota', model: 'prius' }
+    )
   })
 })
