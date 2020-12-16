@@ -33,6 +33,8 @@ describe('Car class', () => {
     // expect(prius).toEqual(
     //   { make: 'toyota', model: 'prius' }
     // )
-    expect(prius).to
+    expect(prius).toMatchObject(
+      { make: 'toyota', model: 'prius' }
+    )
   })
 })
