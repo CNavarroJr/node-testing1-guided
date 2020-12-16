@@ -1,6 +1,6 @@
 class Car {
-  constructor(make) {
-    this.make = make
+  constructor(theMake) {
+    this.make = theMake
   }
 }
 
