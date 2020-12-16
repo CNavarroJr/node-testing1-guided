@@ -62,7 +62,7 @@ describe('Car class', () => {
     prius.drive(9)
     expect(prius.odometer).toBe(20)
   })
-  it('driveAsync increases odometer by driven distance', () => {
-    
+  it('driveAsync increases odometer by driven distance', async () => {
+    await prius.driveAsync(5)
   })
 })
