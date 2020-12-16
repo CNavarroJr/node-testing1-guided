@@ -12,7 +12,9 @@ describe('Sanity and intro', () => {
 })
 describe('Car class', () => {
   let prius
-  
+  beforeEach(() => {
+    // anything you want happening before each test
+  })
   it('is defined', () => {
     expect(Car).toBeDefined()
   })
